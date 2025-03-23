@@ -5,10 +5,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the best-performing model
-model_best = joblib.load(r"D:\GUVI-DS\Mini-Project4\xgboost.pkl")
+model_best = joblib.load("xgboost.pkl")
 
 # Load dataset for visualizations
-df = pd.read_csv(r"D:\GUVI-DS\Mini-Project4\Passenger_Satisfaction.csv")
+df = pd.read_csv("Passenger_Satisfaction.csv")
 
 # Streamlit UI Design
 st.title("🛫 Smart Customer Satisfaction Prediction App 🌟")
