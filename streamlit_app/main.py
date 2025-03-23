@@ -13,7 +13,7 @@ if page == "Home":
     st.write("This app helps you predict flight prices and analyze customer satisfaction to make better travel decisions.")
     
     # Load and display a single image from URL
-    image_url = (r"D:\GUVI-DS\Mini-Project4\flights.jpg")
+    image_url = ("flights.jpg")
     st.image(image_url, use_column_width=True)
     
     st.write("Use the sidebar to navigate between pages and explore the predictions!")
