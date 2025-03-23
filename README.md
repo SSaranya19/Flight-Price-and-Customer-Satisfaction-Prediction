@@ -163,7 +163,7 @@ In this project, we build a **classification model** to predict customer satisfa
 ### **💻 Installation:**
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/flight-price-customer-satisfaction-prediction.git
+   git clone https://github.com/SSaranya19/Flight-Price-and-Customer-Satisfaction-Prediction.git
    ```
 
 2. Install the required dependencies:
