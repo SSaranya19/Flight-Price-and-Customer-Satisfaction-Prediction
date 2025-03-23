@@ -59,23 +59,30 @@ This project builds an **end-to-end solution** to predict flight ticket prices b
 ### **📂 Dataset:**
 - **Dataset Link**: [Flight_Price.csv](#)
 - **Features**:
-  - **Airline**: Name of the airline ✈️
-  - **Date_of_Journey**: Date of departure 📅
-  - **Source & Destination**: Starting and ending airports 🌍
-  - **Route**: Flight path (with stops) 🚏
-  - **Dep_Time**: Departure time ⏰
-  - **Arrival_Time**: Arrival time ⏳
-  - **Duration**: Flight duration ⏱️
-  - **Total_Stops**: Number of stops 🔄
-  - **Additional_Info**: Extra info like meal availability 🍱
+  - **Airline**: Name of the airline
+  - **Date_of_Journey**: Date of departure
+  - **Source & Destination**: Starting and ending airports
+  - **Route**: Flight path (with stops)
+  - **Dep_Time**: Departure time
+  - **Arrival_Time**: Arrival time
+  - **Duration**: Flight duration
+  - **Total_Stops**: Number of stops
+  - **Additional_Info**: Extra info like meal availability
 
 ### **📦 Project Deliverables:**
 - Python scripts for data processing, model training, and MLflow integration.
 - Cleaned dataset.
 - Regression models logged with MLflow.
+  ![f1](https://github.com/user-attachments/assets/0096a8bb-117b-43ba-8dce-9bf6a09d7a4f)
+  ![f2](https://github.com/user-attachments/assets/f17947f1-f207-4eb6-b2e4-be3ae5506650)
+
 - **Streamlit app** for flight price prediction.
+  ![s1](https://github.com/user-attachments/assets/cf7d1646-30c4-40ad-893b-920b5790559b)
+  ![s1f](https://github.com/user-attachments/assets/c41e9165-f6fb-41e8-8646-c2e1d2b2c233)
+  ![s1f2](https://github.com/user-attachments/assets/29acda72-7841-4921-8ae8-42da030d5ea1)
 
 ---
+
 
 ## 👨‍💻 **Project 2: Customer Satisfaction Prediction (Classification)** 💬
 
@@ -132,20 +139,24 @@ In this project, we build a **classification model** to predict customer satisfa
 ### **📂 Dataset:**
 - **Dataset Link**: [Passenger_Satisfaction.csv](#)
 - **Features**:
-  - **Gender**: Gender of the passengers 👩‍🦰👨‍🦱
-  - **Customer Type**: Loyalty status (loyal/disloyal) 🏅
-  - **Age**: Passenger age 🎂
-  - **Type of Travel**: Travel purpose (personal/business) 🧳
-  - **Class**: Travel class (business/eco/eco-plus) 🛋️
-  - **Flight distance**: Distance covered during flight 🌍
-  - **Service satisfaction ratings**: Satisfaction ratings for various services (wifi, food, comfort, etc.) 🌟
-  - **Satisfaction**: Customer satisfaction level (Satisfied, Neutral, Dissatisfied) 😊😐😞
+  - **Gender**: Gender of the passengers
+  - **Customer Type**: Loyalty status (loyal/disloyal)
+  - **Age**: Passenger age
+  - **Type of Travel**: Travel purpose (personal/business)
+  - **Class**: Travel class (business/eco/eco-plus)
+  - **Flight distance**: Distance covered during flight
+  - **Service satisfaction ratings**: Satisfaction ratings for various services (wifi, food, comfort, etc.)
+  - **Satisfaction**: Customer satisfaction level (Satisfied, Neutral, Dissatisfied)
 
 ### **📦 Project Deliverables:**
 - Python scripts for data preprocessing, model training, and MLflow integration.
 - Cleaned dataset.
 - Classification models logged with MLflow.
+  ![c1](https://github.com/user-attachments/assets/21b46ed0-68a2-456b-9b4f-ab97486b8ebd)
+  ![c2](https://github.com/user-attachments/assets/782b4531-1d4d-4589-a577-3caa2e362fb7)
 - **Streamlit app** for customer satisfaction prediction.
+  ![s2c1](https://github.com/user-attachments/assets/0cfe9f8a-1e98-4234-a448-939e30582b5c)
+  ![s2c2](https://github.com/user-attachments/assets/055b1c3e-d057-45c3-b17b-c8b15d7eacf1)
 
 ---
 
@@ -162,5 +173,5 @@ In this project, we build a **classification model** to predict customer satisfa
 
 3. Run the Streamlit app:
    ```bash
-   streamlit run app.py
+   streamlit run main.py
    ```
