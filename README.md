@@ -73,13 +73,16 @@ This project builds an **end-to-end solution** to predict flight ticket prices b
 - Python scripts for data processing, model training, and MLflow integration.
 - Cleaned dataset.
 - Regression models logged with MLflow.
-  ![f1](https://github.com/user-attachments/assets/0096a8bb-117b-43ba-8dce-9bf6a09d7a4f)
-  ![f2](https://github.com/user-attachments/assets/f17947f1-f207-4eb6-b2e4-be3ae5506650)
+  ![m1](https://github.com/user-attachments/assets/ddb8e1fe-131a-47d6-9e02-412ad2706cc6)
+
+  ![m2](https://github.com/user-attachments/assets/4864c5f9-df67-4ee9-bf58-ff85663bbe3e)
+
 
 - **Streamlit app** for flight price prediction.
   ![s1](https://github.com/user-attachments/assets/cf7d1646-30c4-40ad-893b-920b5790559b)
-  ![s1f](https://github.com/user-attachments/assets/c41e9165-f6fb-41e8-8646-c2e1d2b2c233)
-  ![s1f2](https://github.com/user-attachments/assets/29acda72-7841-4921-8ae8-42da030d5ea1)
+ ![f1](https://github.com/user-attachments/assets/365b6797-ef85-4a8e-afa3-ded6e97ab4b0)
+
+ 
 
 ---
 
@@ -152,11 +155,16 @@ In this project, we build a **classification model** to predict customer satisfa
 - Python scripts for data preprocessing, model training, and MLflow integration.
 - Cleaned dataset.
 - Classification models logged with MLflow.
-  ![c1](https://github.com/user-attachments/assets/21b46ed0-68a2-456b-9b4f-ab97486b8ebd)
-  ![c2](https://github.com/user-attachments/assets/782b4531-1d4d-4589-a577-3caa2e362fb7)
+  ![m3](https://github.com/user-attachments/assets/1bcd2844-d03a-48ec-b8c5-9fe1f0d0e358)
+
+  ![m4](https://github.com/user-attachments/assets/0e85f3e3-9cd0-4990-bd15-4bb37214f7d2)
+
 - **Streamlit app** for customer satisfaction prediction.
-  ![s2c1](https://github.com/user-attachments/assets/0cfe9f8a-1e98-4234-a448-939e30582b5c)
-  ![s2c2](https://github.com/user-attachments/assets/055b1c3e-d057-45c3-b17b-c8b15d7eacf1)
+  
+  ![c1](https://github.com/user-attachments/assets/2301d834-80bc-4e65-a40b-779240fee8f8)
+
+  ![c2](https://github.com/user-attachments/assets/64ac6e01-aed3-4ad5-aa49-7c23f7370477)
+
 
 ---
 
