@@ -15,7 +15,7 @@ st.title("✈️ Flight Price Prediction")
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r"D:\GUVI-DS\Mini-Project4\feature.csv", low_memory=False)
+    df = pd.read_csv("feature.csv", low_memory=False)
     return df
 
 try:
@@ -31,7 +31,7 @@ try:
     # Load the trained model
     @st.cache_resource
     def load_model():
-        with open(r"D:\GUVI-DS\Mini-Project4\Reg_model\Gradient Boosting_model.pkl", "rb") as model_file:
+        with open("Gradient Boosting_model.pkl", "rb") as model_file:
             return pickle.load(model_file)
     
     model = load_model()
