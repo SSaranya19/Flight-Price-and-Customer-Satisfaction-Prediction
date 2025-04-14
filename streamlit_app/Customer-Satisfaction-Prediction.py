@@ -28,10 +28,10 @@ age_group_mapping = {
 }
 
 # === Load the trained model ===
-model_best = joblib.load(r"D:\GUVI-DS\Mini-Project4\Class_model\Gradient_Boosting.pkl")
+model_best = joblib.load("Gradient_Boosting.pkl")
 
 # === Load dataset for visualizations ===
-df = pd.read_csv(r"D:\GUVI-DS\Mini-Project4\Passenger_Satisfaction.csv")
+df = pd.read_csv("Passenger_Satisfaction.csv")
 
 # === Tabs for Analysis and Prediction ===
 tab1, tab2 = st.tabs(["📊 Flight Price Trends & Analysis", "🔮 Flight Price Prediction"])
