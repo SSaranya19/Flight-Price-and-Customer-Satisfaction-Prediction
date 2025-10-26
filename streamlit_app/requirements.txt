@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+scipy
+mlflow
+joblib
+pip==25.0.1
