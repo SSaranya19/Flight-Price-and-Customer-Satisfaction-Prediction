@@ -79,6 +79,7 @@ This project builds an **end-to-end solution** to predict flight ticket prices b
 
 
 - **Streamlit app** for flight price prediction.
+ https://flight-price-and-customer-satisfaction-prediction.streamlit.app/
   ![s1](https://github.com/user-attachments/assets/cf7d1646-30c4-40ad-893b-920b5790559b)
  ![f1](https://github.com/user-attachments/assets/365b6797-ef85-4a8e-afa3-ded6e97ab4b0)
 
