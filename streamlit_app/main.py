@@ -14,7 +14,7 @@ if page == "Home":
     
     # Load and display a single image from URL
     image_url = ("flights.jpg")
-    st.image(image_url, width='stretch')
+    st.image(image_url, width=600)
     
     st.write("Use the sidebar to navigate between pages and explore the predictions!")
 
@@ -23,6 +23,7 @@ elif page == "Flight Price Prediction":
 
 elif page == "Customer Satisfaction Analysis":
     exec(open("Customer-Satisfaction-Prediction.py", encoding="utf-8").read())
+
 
 
 
