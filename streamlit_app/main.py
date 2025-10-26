@@ -13,16 +13,17 @@ if page == "Home":
     st.write("This app helps you predict flight prices and analyze customer satisfaction to make better travel decisions.")
     
     # Load and display a single image from URL
-    image_url = ("flights.jpg")
+    image_url = ("streamlit_app/flights.jpg")
     st.image(image_url, width=600)
     
     st.write("Use the sidebar to navigate between pages and explore the predictions!")
 
 elif page == "Flight Price Prediction":
-    exec(open("Flight-Price-Prediction.py", encoding="utf-8").read())
+    exec(open("streamlit_app/Flight-Price-Prediction.py", encoding="utf-8").read())
 
 elif page == "Customer Satisfaction Analysis":
-    exec(open("Customer-Satisfaction-Prediction.py", encoding="utf-8").read())
+    exec(open("streamlit_app/Customer-Satisfaction-Prediction.py", encoding="utf-8").read())
+
 
 
 
