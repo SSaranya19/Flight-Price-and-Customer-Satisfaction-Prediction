@@ -15,7 +15,7 @@ st.title("✈️ Flight Price Prediction")
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("feature.csv", low_memory=False)
+    df = pd.read_csv("streamlit_app/feature.csv", low_memory=False)
     return df
 
 try:
@@ -31,7 +31,7 @@ try:
     # Load the trained model
     @st.cache_resource
     def load_model():
-        with open("Gradient Boosting_model.pkl", "rb") as model_file:
+        with open("streamlit_app/Gradient Boosting_model.pkl", "rb") as model_file:
             return pickle.load(model_file)
     
     model = load_model()
@@ -165,3 +165,4 @@ with tabs[1]:
                 st.markdown(f"Estimated Price Range: ${price * 0.9:.2f} - ${price * 1.1:.2f}")
             except Exception as e:
                 st.error(f"Error making prediction: {e}")
+
